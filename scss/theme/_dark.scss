@@ -8,4 +8,9 @@ html.dark {
   --top-action-group-shadow-color: rgba(0, 0, 0, 0.2);
   --top-action-group-separate: #ededf6;
   --body-bg-color: #292e39;
+  //   DROP DOWN
+  --dropdown-bg-color: #2f3441;
+  --dropdown-shadow-color: rgba(23, 28, 40, 0.4);
+  --dropdown-arrow-color: brightness(0) saturate(100%) invert(15%) sepia(34%)
+    saturate(428%) hue-rotate(186deg) brightness(96%) contrast(85%);
 }

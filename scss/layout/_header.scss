@@ -11,6 +11,7 @@
 }
 
 .top-bar {
+  position: relative;
   padding: 30px 0px;
   @extend %flexItemsCenter;
 
@@ -44,16 +45,30 @@
 
   &__list {
     @extend %flexItemsCenter;
-    gap: 30px;
   }
 
   &__link {
     display: flex;
     align-items: center;
+    padding: 0 15px;
     gap: 6px;
+    height: 50px;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 146.667%;
+  }
+
+  &__item {
+    &:first a {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &:hover .dropdown {
+      display: block;
+    }
   }
 }
 

@@ -10,7 +10,11 @@ html {
   --top-action-group-shadow-color: rgba(237, 237, 246, 0.2);
   --top-action-group-separate: #ededf6;
   --body-bg-color: #f6f6f6;
+
   @include abstracts.breakpoint(lg) {
     --header-bg-color: #fff;
   }
+  //   DROP DOWN
+  --dropdown-bg-color: #fff;
+  --dropdown-shadow-color: rgba(200, 200, 200, 0.4);
 }
