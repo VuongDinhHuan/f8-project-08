@@ -21,4 +21,7 @@ html {
 
   //   DROP DOWN - - TOP MENU - - MAIN
   --top-meunu-border-color: #d2d1d6;
+  //   DROP DOWN - - TOP MENU - - MAIN -- ICON
+  --menu-item-icon-color: brightness(0) saturate(100%) invert(10%) sepia(17%)
+    saturate(1620%) hue-rotate(210deg) brightness(100%) contrast(101%);
 }
