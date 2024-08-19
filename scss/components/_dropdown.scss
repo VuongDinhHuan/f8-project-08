@@ -2,7 +2,7 @@
   position: absolute;
   left: 0;
   padding-top: 54px;
-  // display: none;
+  display: none;
   width: min(1240px, 100%);
 
   &__inner {
@@ -40,7 +40,7 @@
   display: flex;
   gap: 14px;
   + .menu-column {
-    margin-top: var(--inner-padding);
+    margin-top: 22px;
   }
   &__icon {
     flex-shrink: 0;
@@ -88,11 +88,12 @@
     line-height: 142.857%;
   }
   &__item {
-    &:hover .sub-menu {
+    &--active .sub-menu {
       display: grid;
     }
   }
 
+  &__item--active > &__link,
   &__item:hover > &__link {
     color: #0071dc;
     font-size: 1.2rem;
